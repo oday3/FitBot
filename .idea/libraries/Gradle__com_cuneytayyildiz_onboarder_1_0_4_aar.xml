@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.cuneytayyildiz:onboarder:1.0.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a413659460b11a7b72ba126fbb87f809/onboarder-1.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a413659460b11a7b72ba126fbb87f809/onboarder-1.0.4/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.cuneytayyildiz/onboarder/1.0.4/977c29b380b0d48b262c3836a55b4a6f7f2e4773/onboarder-1.0.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.cuneytayyildiz/onboarder/1.0.4/532476722a4d1aaa194ea7efa438c47d1245367b/onboarder-1.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

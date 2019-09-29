@@ -1,0 +1,269 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.logicoverflow.fit_bot"
+4    android:versionCode="10"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:7:5-76
+12-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:7:22-73
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:8:5-79
+13-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->[com.github.jrvansuita:PickImage:2.2.4] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\04806bea5de0781f0dd8752003cab34f\jetified-PickImage-2.2.4\AndroidManifest.xml:11:5-65
+14-->[com.github.jrvansuita:PickImage:2.2.4] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\04806bea5de0781f0dd8752003cab34f\jetified-PickImage-2.2.4\AndroidManifest.xml:11:22-62
+15
+16    <uses-feature android:name="android.hardware.camera" />
+16-->[com.github.jrvansuita:PickImage:2.2.4] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\04806bea5de0781f0dd8752003cab34f\jetified-PickImage-2.2.4\AndroidManifest.xml:13:5-60
+16-->[com.github.jrvansuita:PickImage:2.2.4] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\04806bea5de0781f0dd8752003cab34f\jetified-PickImage-2.2.4\AndroidManifest.xml:13:19-57
+17    <uses-feature android:name="android.hardware.camera.autofocus" />
+17-->[com.github.jrvansuita:PickImage:2.2.4] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\04806bea5de0781f0dd8752003cab34f\jetified-PickImage-2.2.4\AndroidManifest.xml:14:5-70
+17-->[com.github.jrvansuita:PickImage:2.2.4] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\04806bea5de0781f0dd8752003cab34f\jetified-PickImage-2.2.4\AndroidManifest.xml:14:19-67
+18
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->[com.github.jrvansuita:PickImage:2.2.4] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\04806bea5de0781f0dd8752003cab34f\jetified-PickImage-2.2.4\AndroidManifest.xml:16:5-81
+19-->[com.github.jrvansuita:PickImage:2.2.4] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\04806bea5de0781f0dd8752003cab34f\jetified-PickImage-2.2.4\AndroidManifest.xml:16:22-78
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+21-->[com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\ddcb6df136c258e9a7f00bbc205194a3\play-services-measurement-api-17.0.0\AndroidManifest.xml:24:5-68
+21-->[com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\ddcb6df136c258e9a7f00bbc205194a3\play-services-measurement-api-17.0.0\AndroidManifest.xml:24:22-65
+22    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+22-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\856a947c1a9c6ebc4d2fc0c2fb4dbece\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+22-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\856a947c1a9c6ebc4d2fc0c2fb4dbece\firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+23-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\a1e71290300d3613a879e2779edacef9\play-services-measurement-17.0.0\AndroidManifest.xml:26:5-110
+23-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\a1e71290300d3613a879e2779edacef9\play-services-measurement-17.0.0\AndroidManifest.xml:26:22-107
+24
+25    <application
+25-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:10:5-53:19
+26        android:allowBackup="true"
+26-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:11:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0-rc01] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\4c6cf5ef51a5f00a9f1bb98a65c4e8f1\core-1.1.0-rc01\AndroidManifest.xml:24:18-86
+28        android:configChanges="orientation"
+28-->[com.github.jrvansuita:PickImage:2.2.4] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\04806bea5de0781f0dd8752003cab34f\jetified-PickImage-2.2.4\AndroidManifest.xml:19:9-44
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:12:9-43
+31        android:label="@string/app_name"
+31-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:13:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:14:9-54
+33        android:screenOrientation="portrait"
+33-->[com.github.jrvansuita:PickImage:2.2.4] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\04806bea5de0781f0dd8752003cab34f\jetified-PickImage-2.2.4\AndroidManifest.xml:21:9-45
+34        android:supportsRtl="false"
+34-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:15:9-36
+35        android:theme="@style/DefaultTheme" >
+35-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:16:9-44
+36        <activity android:name="com.logicoverflow.fit_bot.IntroActivity" />
+36-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:18:9-60
+36-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:18:19-48
+37
+38        <receiver
+38-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:20:9-25:20
+39            android:name="com.logicoverflow.fit_bot.BroadcastReceivers.InternetBroadcastReceiver"
+39-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:21:13-73
+40            android:enabled="true"
+40-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:23:13-35
+41            android:exported="true" >
+41-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:22:13-36
+42        </receiver>
+43
+44        <activity android:name="com.logicoverflow.fit_bot.SettingsActivity" />
+44-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:27:9-53
+44-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:27:19-51
+45        <activity android:name="com.logicoverflow.fit_bot.SplashActivity" >
+45-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:29:9-37:20
+45-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:30:13-43
+46            <intent-filter>
+46-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:32:13-36:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:33:17-69
+47-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:33:25-66
+48                <action android:name="android.intent.action.VIEW" />
+48-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:34:17-68
+48-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:34:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:35:17-77
+50-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:35:27-74
+51            </intent-filter>
+52        </activity>
+53        <activity
+53-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:39:9-41:69
+54            android:name="com.logicoverflow.fit_bot.ChatActivity"
+54-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:40:13-41
+55            android:windowSoftInputMode="stateHidden|adjustResize" />
+55-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:41:13-67
+56
+57        <provider
+58            android:name="androidx.core.content.FileProvider"
+58-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:44:13-62
+59            android:authorities="com.logicoverflow.fit_bot.com.vansuita.pickimage.provider"
+59-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:45:13-83
+60            android:exported="false"
+60-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:46:13-37
+61            android:grantUriPermissions="true" >
+61-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:47:13-47
+62            <meta-data
+62-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:49:13-51:65
+63                android:name="android.support.FILE_PROVIDER_PATHS"
+63-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:50:17-67
+64                android:resource="@xml/picker_provider_paths" />
+64-->C:\Users\oday\Desktop\fit-bot-android-v5\app\src\main\AndroidManifest.xml:51:17-62
+65        </provider>
+66
+67        <service
+67-->[com.google.firebase:firebase-storage:18.1.1] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\54ed1d426ee85c956098b5bd227dc6ee\firebase-storage-18.1.1\AndroidManifest.xml:30:9-36:19
+68            android:name="com.google.firebase.components.ComponentDiscoveryService"
+68-->[com.google.firebase:firebase-storage:18.1.1] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\54ed1d426ee85c956098b5bd227dc6ee\firebase-storage-18.1.1\AndroidManifest.xml:31:13-84
+69            android:exported="false" >
+69-->[com.google.firebase:firebase-storage:18.1.1] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\54ed1d426ee85c956098b5bd227dc6ee\firebase-storage-18.1.1\AndroidManifest.xml:32:13-37
+70            <meta-data
+70-->[com.google.firebase:firebase-storage:18.1.1] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\54ed1d426ee85c956098b5bd227dc6ee\firebase-storage-18.1.1\AndroidManifest.xml:33:13-35:85
+71                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+71-->[com.google.firebase:firebase-storage:18.1.1] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\54ed1d426ee85c956098b5bd227dc6ee\firebase-storage-18.1.1\AndroidManifest.xml:34:17-107
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-storage:18.1.1] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\54ed1d426ee85c956098b5bd227dc6ee\firebase-storage-18.1.1\AndroidManifest.xml:35:17-82
+73            <meta-data
+73-->[com.google.firebase:firebase-database:18.0.1] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\ba6e5ce609c1565274cb4700463219de\firebase-database-18.0.1\AndroidManifest.xml:32:13-34:85
+74                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+74-->[com.google.firebase:firebase-database:18.0.1] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\ba6e5ce609c1565274cb4700463219de\firebase-database-18.0.1\AndroidManifest.xml:33:17-109
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.firebase:firebase-database:18.0.1] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\ba6e5ce609c1565274cb4700463219de\firebase-database-18.0.1\AndroidManifest.xml:34:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\925dbab844339e27b5e1d74fcce99c83\firebase-auth-18.1.0\AndroidManifest.xml:36:13-38:85
+77                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+77-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\925dbab844339e27b5e1d74fcce99c83\firebase-auth-18.1.0\AndroidManifest.xml:37:17-109
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\925dbab844339e27b5e1d74fcce99c83\firebase-auth-18.1.0\AndroidManifest.xml:38:17-82
+79            <meta-data
+79-->[com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\ddcb6df136c258e9a7f00bbc205194a3\play-services-measurement-api-17.0.0\AndroidManifest.xml:30:13-32:85
+80                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+80-->[com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\ddcb6df136c258e9a7f00bbc205194a3\play-services-measurement-api-17.0.0\AndroidManifest.xml:31:17-139
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\ddcb6df136c258e9a7f00bbc205194a3\play-services-measurement-api-17.0.0\AndroidManifest.xml:32:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\856a947c1a9c6ebc4d2fc0c2fb4dbece\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+83                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+83-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\856a947c1a9c6ebc4d2fc0c2fb4dbece\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\856a947c1a9c6ebc4d2fc0c2fb4dbece\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+85        </service>
+86
+87        <activity
+87-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\925dbab844339e27b5e1d74fcce99c83\firebase-auth-18.1.0\AndroidManifest.xml:24:9-31:50
+88            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+88-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\925dbab844339e27b5e1d74fcce99c83\firebase-auth-18.1.0\AndroidManifest.xml:25:13-85
+89            android:excludeFromRecents="true"
+89-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\925dbab844339e27b5e1d74fcce99c83\firebase-auth-18.1.0\AndroidManifest.xml:26:13-46
+90            android:exported="true"
+90-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\925dbab844339e27b5e1d74fcce99c83\firebase-auth-18.1.0\AndroidManifest.xml:27:13-36
+91            android:launchMode="singleTask"
+91-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\925dbab844339e27b5e1d74fcce99c83\firebase-auth-18.1.0\AndroidManifest.xml:28:13-44
+92            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+92-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\925dbab844339e27b5e1d74fcce99c83\firebase-auth-18.1.0\AndroidManifest.xml:29:13-102
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+93-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\925dbab844339e27b5e1d74fcce99c83\firebase-auth-18.1.0\AndroidManifest.xml:30:13-72
+94
+95        <receiver
+95-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\856a947c1a9c6ebc4d2fc0c2fb4dbece\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+96            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+96-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\856a947c1a9c6ebc4d2fc0c2fb4dbece\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+97            android:exported="true"
+97-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\856a947c1a9c6ebc4d2fc0c2fb4dbece\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+98            android:permission="com.google.android.c2dm.permission.SEND" >
+98-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\856a947c1a9c6ebc4d2fc0c2fb4dbece\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+99            <intent-filter>
+99-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\856a947c1a9c6ebc4d2fc0c2fb4dbece\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+100                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+100-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\856a947c1a9c6ebc4d2fc0c2fb4dbece\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+100-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\856a947c1a9c6ebc4d2fc0c2fb4dbece\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+101            </intent-filter>
+102        </receiver>
+103
+104        <activity
+104-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\951b5e7f354daaaf8db57d3e12181016\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+105            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+105-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\951b5e7f354daaaf8db57d3e12181016\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+106            android:exported="false"
+106-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\951b5e7f354daaaf8db57d3e12181016\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+107            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+107-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\951b5e7f354daaaf8db57d3e12181016\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+108
+109        <provider
+109-->[com.google.firebase:firebase-common:18.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\00e5133ada4e4b6c1eb7cdee65f6b9b8\firebase-common-18.0.0\AndroidManifest.xml:12:9-16:39
+110            android:name="com.google.firebase.provider.FirebaseInitProvider"
+110-->[com.google.firebase:firebase-common:18.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\00e5133ada4e4b6c1eb7cdee65f6b9b8\firebase-common-18.0.0\AndroidManifest.xml:13:13-77
+111            android:authorities="com.logicoverflow.fit_bot.firebaseinitprovider"
+111-->[com.google.firebase:firebase-common:18.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\00e5133ada4e4b6c1eb7cdee65f6b9b8\firebase-common-18.0.0\AndroidManifest.xml:14:13-72
+112            android:exported="false"
+112-->[com.google.firebase:firebase-common:18.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\00e5133ada4e4b6c1eb7cdee65f6b9b8\firebase-common-18.0.0\AndroidManifest.xml:15:13-37
+113            android:initOrder="100" />
+113-->[com.google.firebase:firebase-common:18.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\00e5133ada4e4b6c1eb7cdee65f6b9b8\firebase-common-18.0.0\AndroidManifest.xml:16:13-36
+114
+115        <receiver
+115-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\a1e71290300d3613a879e2779edacef9\play-services-measurement-17.0.0\AndroidManifest.xml:29:9-33:20
+116            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+116-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\a1e71290300d3613a879e2779edacef9\play-services-measurement-17.0.0\AndroidManifest.xml:30:13-85
+117            android:enabled="true"
+117-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\a1e71290300d3613a879e2779edacef9\play-services-measurement-17.0.0\AndroidManifest.xml:31:13-35
+118            android:exported="false" >
+118-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\a1e71290300d3613a879e2779edacef9\play-services-measurement-17.0.0\AndroidManifest.xml:32:13-37
+119        </receiver>
+120        <receiver
+120-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\a1e71290300d3613a879e2779edacef9\play-services-measurement-17.0.0\AndroidManifest.xml:34:9-42:20
+121            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+121-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\a1e71290300d3613a879e2779edacef9\play-services-measurement-17.0.0\AndroidManifest.xml:35:13-100
+122            android:enabled="true"
+122-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\a1e71290300d3613a879e2779edacef9\play-services-measurement-17.0.0\AndroidManifest.xml:36:13-35
+123            android:exported="true"
+123-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\a1e71290300d3613a879e2779edacef9\play-services-measurement-17.0.0\AndroidManifest.xml:37:13-36
+124            android:permission="android.permission.INSTALL_PACKAGES" >
+124-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\a1e71290300d3613a879e2779edacef9\play-services-measurement-17.0.0\AndroidManifest.xml:38:13-69
+125            <intent-filter>
+125-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\a1e71290300d3613a879e2779edacef9\play-services-measurement-17.0.0\AndroidManifest.xml:39:13-41:29
+126                <action android:name="com.android.vending.INSTALL_REFERRER" />
+126-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\a1e71290300d3613a879e2779edacef9\play-services-measurement-17.0.0\AndroidManifest.xml:40:17-79
+126-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\a1e71290300d3613a879e2779edacef9\play-services-measurement-17.0.0\AndroidManifest.xml:40:25-76
+127            </intent-filter>
+128        </receiver>
+129
+130        <service
+130-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\a1e71290300d3613a879e2779edacef9\play-services-measurement-17.0.0\AndroidManifest.xml:44:9-47:40
+131            android:name="com.google.android.gms.measurement.AppMeasurementService"
+131-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\a1e71290300d3613a879e2779edacef9\play-services-measurement-17.0.0\AndroidManifest.xml:45:13-84
+132            android:enabled="true"
+132-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\a1e71290300d3613a879e2779edacef9\play-services-measurement-17.0.0\AndroidManifest.xml:46:13-35
+133            android:exported="false" />
+133-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\a1e71290300d3613a879e2779edacef9\play-services-measurement-17.0.0\AndroidManifest.xml:47:13-37
+134        <service
+134-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\a1e71290300d3613a879e2779edacef9\play-services-measurement-17.0.0\AndroidManifest.xml:48:9-52:72
+135            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+135-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\a1e71290300d3613a879e2779edacef9\play-services-measurement-17.0.0\AndroidManifest.xml:49:13-87
+136            android:enabled="true"
+136-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\a1e71290300d3613a879e2779edacef9\play-services-measurement-17.0.0\AndroidManifest.xml:50:13-35
+137            android:exported="false"
+137-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\a1e71290300d3613a879e2779edacef9\play-services-measurement-17.0.0\AndroidManifest.xml:51:13-37
+138            android:permission="android.permission.BIND_JOB_SERVICE" />
+138-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\a1e71290300d3613a879e2779edacef9\play-services-measurement-17.0.0\AndroidManifest.xml:52:13-69
+139
+140        <meta-data
+140-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\2eb0c9f485b8e53f09ef46f8d3b1f90c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+141            android:name="com.google.android.gms.version"
+141-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\2eb0c9f485b8e53f09ef46f8d3b1f90c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+142            android:value="@integer/google_play_services_version" />
+142-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\oday\.gradle\caches\transforms-2\files-2.1\2eb0c9f485b8e53f09ef46f8d3b1f90c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+143    </application>
+144
+145</manifest>

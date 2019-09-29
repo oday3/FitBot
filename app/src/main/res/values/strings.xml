@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">FIT-Bot</string>
+    <string name="settings_menu_item" />
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="about_the_app">FIT-BOT هو  مشروع تخرج تم برمجته وتطويره لكلية تكنولوجيا المعلومات في الجامعة الاسلامية بغزة.
+يهدف التطبيق لتسهيل الحياة الاكاديمية لطلاب الكلية من خلال تقديم اجابات عن الاسئلة الخاصة بهم.وقد تم هذا العمل تحت اشراف وتوجيه الدكتور معتز سعد وتطوير الطلاب : رامي الحلو, عبيدة العيسوي,امجد العجرمي,عدي عطالله</string>
+
+    <!--floating navigation menu-->
+    <string name="appearance_string">المظهر</string>
+    <string name="about_string">عن التطبيق</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings_textView">الاعدادات</string>
+    <string name="about_textView_setting_fragment">عن التطبيق</string>
+    <string name="theme_textView_in_appearance_fragment">المظهر</string>
+    <string name="enable_dark_mode_textView_in_appearance_fragment">تفعيل الوضع الليلي</string>
+    <string name="select_background_image_textView_in_appearance_fragment">تغيير خلفية المحادثة</string>
+    <string name="select_main_colo_textView_in_appearance_fragment">تغيير اللون</string>
+    <string name="instructions_textView_setting_fragment">دليل الاستخدام</string>
+    <string name="instruction">1. عند الاستفسار عن معلومات عن اعضاء الهيئة التدريسية،يرجى كتابة الاسم كاملا \n2. يرجى كتابة السؤال بالعربية الفصحى\n3. للتبليغ عن مشكلة في سؤال او اجابة ،يرجى الضغط مطولا على النص وثم التبليغ عن المشكلة\n</string>
+    <string name="choose_theme_text">أختيار سمة:</string>
+    <string name="change_sizeOfmessage_text">تغيير حجم خط الرسالة:</string>
+
+</resources>

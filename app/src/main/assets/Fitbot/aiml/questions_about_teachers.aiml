@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "2.0">
+    
+    <category>
+        <pattern> # رئيس قسم # <set>specializations</set> # </pattern>
+        <template>
+            يمكنك معرفة رئيس قسمك من خلال http://fit.iugaza.edu.ps/عن-الكلية/مجلس-الكلية
+        </template>
+    </category>
+
+    <category>
+        <pattern> # <set>general_words</set> # <set>teachers_title</set> #  </pattern>
+        <template>
+          gif يمكنك معرفة ذلك من خلال http://fit.iugaza.edu.ps/عن-الكلية/الهيئة-التدريسية
+        </template>
+    </category>
+
+    <category>
+        <pattern> # <set>teachers_title</set> # <set>specializations</set> # </pattern>
+        <template>
+             يمكنك معرفة ذلك من خلال http://fit.iugaza.edu.ps/عن-الكلية/الهيئة-التدريسية
+        </template>
+    </category>
+
+    <category>
+        <pattern> # <set>general_words</set> ^ <set>teachers_title</set> # <set>specializations</set> # </pattern>
+        <template>
+             يمكنك معرفة ذلك من خلال http://fit.iugaza.edu.ps/عن-الكلية/الهيئة-التدريسية
+        </template>
+    </category>
+
+    <category>
+        <pattern> # <set>office_hours</set> # <set>teachers_title</set> # <set>teachers_names</set> # </pattern>
+        <template>
+            <map name="teachers_office_hours"><star index="6"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern> # مكتب # <set>teachers_title</set> # <set>teachers_names</set> # </pattern>
+        <template>
+            <map name="teachers_office_location"><star index="5"/></map>
+        </template>
+    </category>
+
+</aiml>

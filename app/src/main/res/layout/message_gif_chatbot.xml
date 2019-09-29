@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/logo_image" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bubble_message_chatbot"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:elevation="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pt_sans_web_bold"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:text="Hello"
+            android:linksClickable="true"
+            android:autoLink="all"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="?attr/textColor"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:paddingLeft="15dp"
+            android:id="@+id/message_gif"
+            android:minWidth="300dp"
+            android:minHeight="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

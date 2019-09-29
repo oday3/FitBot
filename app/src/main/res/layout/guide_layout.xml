@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/toolbar_round_shape"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/guide_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="?attr/toolbar_background"
+        android:elevation="10dp"
+        app:layout_scrollFlags="scroll|enterAlways">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/back_button"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_arrow"
+                android:rotation="180"
+                />
+
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pt_sans_web_bold"
+                android:text="دليل الطالب"
+                android:textAlignment="center"
+                android:textColor="?attr/main_text_in_app_color"
+                android:textSize="26sp" />
+
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <WebView
+        android:id="@+id/guideWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/guide_toolbar"
+        android:layout_gravity="end"
+        android:layoutDirection="rtl"
+        android:textAlignment="textEnd"
+        android:textDirection="rtl" />
+
+
+</RelativeLayout>
